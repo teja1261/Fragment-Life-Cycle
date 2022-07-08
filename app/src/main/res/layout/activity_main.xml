@@ -32,7 +32,7 @@
         android:layout_marginTop="28dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout="@layout/fragment_one" />
+        android:name="com.example.fragmentlifecycle.FragmentOne"/>
 
     <LinearLayout
         android:layout_width="match_parent"
